@@ -1,0 +1,66 @@
+# ---------------------------
+# Core Python & Utilities
+# ---------------------------
+numpy>=1.24
+scipy>=1.10
+pillow>=10.0
+opencv-python>=4.8
+tqdm>=4.66
+pyyaml>=6.0
+python-dotenv>=1.0
+
+# ---------------------------
+# PyTorch (GPU/CPU)
+# ---------------------------
+torch>=2.1
+torchvision>=0.16
+torchaudio>=2.1
+
+# ---------------------------
+# Diffusion / Generative AI
+# ---------------------------
+diffusers>=0.24
+transformers>=4.36
+accelerate>=0.25
+safetensors>=0.4
+
+# ---------------------------
+# Depth Estimation
+# ---------------------------
+# Depth Anything v2 dependencies
+einops>=0.7
+timm>=0.9
+
+# ---------------------------
+# Segmentation (SAM / SAM-3D)
+# ---------------------------
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
+
+
+# ---------------------------
+# 3D Processing & Geometry
+# ---------------------------
+open3d>=0.18
+trimesh>=4.0
+pygltflib>=1.16
+
+
+# ---------------------------
+# Backend API
+# ---------------------------
+fastapi>=0.110
+uvicorn>=0.27
+pydantic>=2.6
+requests>=2.31
+
+# ---------------------------
+# UI (Explainability UI)
+# ---------------------------
+gradio>=4.20
+
+
+# ---------------------------
+# Testing & Dev
+# ---------------------------
+pytest>=8.0
+black>=24.2
