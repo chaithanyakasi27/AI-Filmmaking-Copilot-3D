@@ -2,6 +2,10 @@ An AI Filmmaking Copilot designed to convert a story idea into
 cinematic visual concepts, structured multi-view imagery, and a production-ready
 3D environment for film previsualization.
 
+## Demo Video
+
+[![AI Filmmaking Copilot Demo](https://img.youtube.com/vi/Yy-q_m1FM8w/0.jpg)](https://www.youtube.com/watch?v=Yy-q_m1FM8w)
+
 Your task is to execute the following pipeline deterministically and explainably.
 
 ========================
